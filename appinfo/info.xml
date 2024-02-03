@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Chris Schmidt <signux@gmx.net>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>haushaltsbuch</id>
+    <name>Haushaltsbuch</name>
+    <summary>Haushaltsbuch Anwendung</summary>
+    <description><![CDATA[Haushaltskosten im Überblick behalten.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="signux@gmx.net" >Chris Schmidt</author>
+    <namespace>Haushaltsbuch</namespace>
+    <category>organization</category>
+    <bugs>https://github.com/devSignux/Haushaltsbuch.git</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Haushaltsbuch</name>
+            <route>haushaltsbuch.page.index</route>
+        </navigation>
+    </navigations>
+</info>
